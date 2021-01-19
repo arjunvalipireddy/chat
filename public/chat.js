@@ -1,4 +1,4 @@
-let socket = io.connect("https://arjunchat.vercel.app");
+let socket = io("https://arjunchat.vercel.app");
 
 var message = document.getElementById("message");
 var button = document.getElementById("send");
