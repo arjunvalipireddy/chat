@@ -1,4 +1,4 @@
-let socket = io.connect("http://localhost:4000");
+let socket = io.connect("https://arjunchat-gkh873q1s.vercel.app");
 
 var message = document.getElementById("message");
 var button = document.getElementById("send");
