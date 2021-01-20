@@ -1,4 +1,4 @@
-let socket = io.connect("https://arjunchat.vercel.app/");
+let socket = io();
 
 
 
