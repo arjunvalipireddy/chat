@@ -1,4 +1,4 @@
-let socket = io();
+let socket = io.connect('/');
 
 var message = document.getElementById("message");
 var button = document.getElementById("send");
