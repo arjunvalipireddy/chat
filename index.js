@@ -1,10 +1,11 @@
 const express = require("express");
+var app = express();
 const socket = require("socket.io");
 
-var app = express();
-var server = app.listen(4000, function () {
-  console.log("Listening to Port 4000");
-});
+
+var server = require('http').Server(app);
+const io = moudle.exports.io = require('socket.io')(server);
+const PORT = process.env.PORT || 3231;
 
 
 app.use(express.static("public"));
