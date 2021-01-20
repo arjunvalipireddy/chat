@@ -1,4 +1,7 @@
 let socket = io.connect('/');
+var http = require('http');
+var io = require('socket.io').listen(server);
+
 
 var message = document.getElementById("message");
 var button = document.getElementById("send");
