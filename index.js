@@ -5,7 +5,7 @@ var server = require('http').Server(app);
 var app = express();
 var port = process.env.PORT || 3000;
 
-app.listen(port);
+var server = app.listen(port);
 
 
 app.use(express.static("public"));
