@@ -1,6 +1,5 @@
-let socket = io.connect('/');
-var http = require('http');
-var io = require('socket.io').listen(server);
+let socket = io();
+
 
 
 var message = document.getElementById("message");
