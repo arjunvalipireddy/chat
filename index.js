@@ -3,9 +3,9 @@ const express = require("express");
 const socket = require("socket.io");
 var server = require('http').Server(app);
 var app = express();
-var server = app.listen(4000, function () {
-  console.log("Listening to Port 4000");
-});
+var port = process.env.PORT || 3000;
+
+var server = app.listen(port);
 
 
 app.use(express.static("public"));
